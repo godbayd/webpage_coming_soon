@@ -1,8 +1,7 @@
-# *** Warning! Your custom domain is not using HTTPS yet ***
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect domain aliases to primary domain
-http://www.dustingodbay.com/* http://www.dustingodbay.com/:splat 301!
+https://www.dustingodbay.com/* https://www.dustingodbay.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-http://nifty-goldwasser-c01797.netlify.com/* http://www.dustingodbay.com/:splat 301!
+https://dustin-godbay-coming-soon.netlify.com/* https://www.dustingodbay.com/:splat 301!
